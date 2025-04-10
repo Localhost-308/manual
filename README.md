@@ -1,5 +1,11 @@
-# Tecnologia
-Este manual é construído usando a biblioteca mkdocs do python, mas para sua manutenção basta atualizar os arquivos markdown presentes na pasta **docs**
+# Onde está publicado
+O site do manual pode ser acessado em:
+
+<https://localhost-308.github.io/manual/>
+
+
+# O Manual
+Este manual é construído usando a biblioteca mkdocs do python, mas para sua manutenção basta atualizar os arquivos markdown presentes na pasta **docs** e realizar o deploy.
 
 # Instalar o mkdocs
 
@@ -18,11 +24,8 @@ mkdocs serve
 ```
 1- Acessar no navegador: http://127.0.0.1:8000/
 
-# Build e Commit do Manual
-Para atualizar o manual no repositório, é necessário realizar o seu build antes de fazer o commit.
-
+# Deploy do Manual
+Para atualizar o manual no site e a versão pdf necessário realizar o deploy com o seguinte comando
 ```sh
-mkdocs build
+mkdocs gh-deploy
 ```
-
-Com esse comando é atualizada a pasta **site** que contem as versões html e pdf do manual.
