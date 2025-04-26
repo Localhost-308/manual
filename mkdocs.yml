@@ -9,7 +9,7 @@ theme:
 site_name: Manual do Usuário
 site_url: https://localhost-308.github.io/manual/
 site_author: Time LOCALHOST 306 - 6ºSem - FATEC-SJC
-repo_url: https://github.com/Localhost-308
+repo_url: https://github.com/Localhost-308/API-BD6
 site_version: 1.0
 
 extra:
