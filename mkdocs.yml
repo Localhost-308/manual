@@ -7,7 +7,18 @@ theme:
     - navigation.expand
     
 site_name: Manual do Usuário
+site_url: https://localhost-308.github.io/manual/
+site_author: Time LOCALHOST 306 - 6ºSem - FATEC-SJC
+repo_url: https://github.com/Localhost-308
+site_version: 1.0
 
+extra:
+  pdf:
+    title: Manual do Usuário
+    author: Time de Desenvolvimento LOCALHOST 306
+    subject: Manual de utilização do sistema Kersys Dashboard relativo ao Projeto Integrador do 6º semestre do curso de Banco de Dados
+    keywords: Kersys, Dashboard, Projeto Integrador, Banco de Dados
+    
 nav:
   - Executando o Projeto:  executar-projeto/executar-projeto.md
   - Guia: 
@@ -22,6 +33,10 @@ nav:
 plugins:
   - search:
       indexing: 'full'
-  - with-pdf
+  - with-pdf:
+      cover_title: Manual do Usuário
+      cover_subtitle: Manual de utilização do sistema Kersys Dashboard
+      cover_author: Time LOCALHOST 306 - 6ºSem - FATEC-SJC
+      copyright: Abril de 2025
 
 use_directory_urls: false
