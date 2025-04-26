@@ -29,3 +29,9 @@ Para atualizar o manual no site e a versão pdf necessário realizar o deploy co
 ```sh
 mkdocs gh-deploy
 ```
+# Push das alterações
+Após fazer o deploy, também é necessário fazer o commit/push das alterações.
+```sh
+git commit 
+git push
+```

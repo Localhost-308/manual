@@ -3,12 +3,17 @@ theme:
   palette:
     primary: green
   logo: assets/logo.avif
+  features:
+    - navigation.expand
+    
 site_name: Manual do Usuário
 
 nav:
+  - Executando o Projeto:  executar-projeto/executar-projeto.md
   - Guia: 
     - Acesso: guia/acesso/acesso.md
     - Dashboard: guia/dashboard/dashboard.md
+    - Pesquisa Áreas: guia/pesquisa-areas/pesquisa-areas.md
     - Diagnóstico(IA): guia/diagnostico/diagnostico.md
     - Dados Pessoais: guia/dados-pessoais/dados-pessoais.md
   - Dev Team: dev-team/dev-team.md
