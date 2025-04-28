@@ -432,29 +432,35 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#atualizacao-de-dados" class="md-nav__link">
-    <span class="md-ellipsis">
-      Atualização de Dados
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#terms-page" class="md-nav__link">
-    <span class="md-ellipsis">
-      Terms Page
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#portabilidade" class="md-nav__link">
     <span class="md-ellipsis">
       Portabilidade
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Portabilidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#como-funciona" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como funciona?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-a-passo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passo a passo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -545,29 +551,35 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#atualizacao-de-dados" class="md-nav__link">
-    <span class="md-ellipsis">
-      Atualização de Dados
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#terms-page" class="md-nav__link">
-    <span class="md-ellipsis">
-      Terms Page
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#portabilidade" class="md-nav__link">
     <span class="md-ellipsis">
       Portabilidade
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Portabilidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#como-funciona" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como funciona?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-a-passo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passo a passo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -591,32 +603,44 @@
 
 
 <h1 id="dados-pessoais">Dados Pessoais</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, d
+<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, d
 ignissim sit amet, adipiscing nec, ultricies sed, dolor...
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus t
 ortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor...
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, 
-adipiscing nec, ultricies sed, dolor...</p>
-<h2 id="atualizacao-de-dados">Atualização de Dados</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
-<p>Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor...
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor...</p>
-<h2 id="terms-page">Terms Page</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+adipiscing nec, ultricies sed, dolor...
+
+## Atualização de Dados
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.
+
+Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor...
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor...
+
+## Terms Page
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 Sed non risus. Suspendisse lectus tortor, dignissim sit amet, 
 adipiscing nec, ultricies sed, dolor...
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. 
 Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor...
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor...</p>
+Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor... -->
+
 <h2 id="portabilidade">Portabilidade</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-Sed non risus. Suspendisse lectus tortor, dignissim sit amet, 
-adipiscing nec, ultricies sed, dolor...
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. 
-Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor...
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor...</p>
+<p>A portabilidade está disponível para todos os usuários (exceto os usuários admin). Com essa recurso, o usuário pode utilizar seus dados em outras aplicações, como, por exemplo, dados para login (e-mail, nome, ...) e/ou dados relacionados às suas áreas (emissão de CO₂, árvores plantadas, ...) para realizar análises em outras plataformas.</p>
+<h4 id="como-funciona">Como funciona?</h4>
+<p>A aplicação externa deve fazer uma requisição para a API de portabilidade (http://127.0.0.1:5000/portability/) e enviar como parâmetros a URL para o callback (o callback é uma funcionalidade que retorna à API que fez a requisição) e a public key. Após isso, a API solicitará que o usuário faça o login na API principal. Em seguida, o usuário poderá escolher os dados que deseja exportar. Pronto! Os dados serão enviados, de forma criptografada, para a URL de callback definida na chamada da API de portabilidade.</p>
+<h4 id="passo-a-passo">Passo a passo</h4>
+<p>Na API externa vai ter por exemplo um botão de login ou portabilidade.
+OBS: Esse botão esta na API externa.
+<img alt="image info" src="portabilidade/botao_portabilidade.png" /></p>
+<p>Agora, so fazer o login com o email e senha.
+<img alt="image info" src="portabilidade/login.png" /></p>
+<p>Agora escolhe quais informações você quer que a API externa acesse.
+<img alt="image info" src="portabilidade/confirmar.png" /></p>
+<p>Pronto! Os seus dados ja foram para a API externa.
+OBS: Neste print, você vê tanto os dados criptografados quanto os descriptografados. Os dados serão enviados criptografados, mas para ilustrar como eles chegam à API externa, eu os descriptografei.
+<img alt="image info" src="portabilidade/dados.png" /></p>
 
 
 
