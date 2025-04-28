@@ -25,7 +25,7 @@ nav:
     - Acesso: guia/acesso/acesso.md
     - Dashboard: guia/dashboard/dashboard.md
     - Pesquisa Áreas: guia/pesquisa-areas/pesquisa-areas.md
-    - Diagnóstico(IA): guia/diagnostico/diagnostico.md
+    - Insights(IA): guia/insights-ia/insights-ia.md
     - Dados Pessoais: guia/dados-pessoais/dados-pessoais.md
   - Dev Team: dev-team/dev-team.md
   - Sobre: about.md
